@@ -15,10 +15,10 @@
 
 2. Создайте файл .env, взяв информацию из .env.example:
 
-POSTGRES_DB=
-POSTGRES_USER=
-POSTGRES_PASSWORD=
-SECRET_KEY=
+POSTGRES_DB=contacts_db</br>
+POSTGRES_USER=contacts_user</br>
+POSTGRES_PASSWORD=</br>
+SECRET_KEY=</br>
 DEBUG=True
 ALLOWED_HOSTS=localhost,127.0.0.1
 
