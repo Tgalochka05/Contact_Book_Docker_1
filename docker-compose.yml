@@ -25,7 +25,7 @@ services:
     environment:
       POSTGRES_DB: contacts_db
       POSTGRES_USER: contacts_user
-      POSTGRES_PASSWORD: 657lol657
+      POSTGRES_PASSWORD: your_password
     ports:
       - "5433:5432"
     networks:
@@ -35,8 +35,8 @@ services:
     image: dpage/pgadmin4
     container_name: pgadmin
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin@admin.com
-      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_DEFAULT_EMAIL: adminmail
+      PGADMIN_DEFAULT_PASSWORD: adminpassword
     ports:
       - "5050:80"
     volumes:
@@ -52,4 +52,4 @@ networks:
 
 volumes:
   postgres_data:
-  pgadmin_data:  # ← Добавьте этот volume
+  pgadmin_data:
